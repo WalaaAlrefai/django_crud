@@ -1,0 +1,24 @@
+*{
+    background-color: rgb(145, 118, 170);
+}
+body {
+    text-align: center;
+}
+h1{
+    color: rgb(227, 212, 194);
+}
+h2 , h3{
+    color: rgb(74, 33, 44);
+}
+a:hover{
+    color: rgb(47, 11, 35);
+}
+
+a {
+    text-decoration: none;
+    color:  rgb(241, 232, 234);
+}
+p{
+    font-size: large;
+    color: rgb(223, 231, 229);
+}

@@ -1,0 +1,16 @@
+{% extends 'base.html'%}
+{% block content%}
+
+<div>
+    <h1>Snack Details</h1>
+    <h2>Name : {{snack.name|capfirst}}</h2>
+    <h2>Purchser : {{snack.purchaser|capfirst}}</h2>
+    <h2>Desc : {{snack.desc|capfirst}}</h2>
+</div>
+
+<a href="{% url 'snack_update' snack.id%}">Update</a> <br>
+<a href="{% url 'snack_delete' snack.id%}">Delete</a> <br>
+<a href="{% url 'snack_list' %}"> Back </a>
+
+
+{% endblock%}
